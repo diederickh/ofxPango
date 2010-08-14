@@ -1,0 +1,25 @@
+<install>
+	<name>ofxPango</name>
+	<version>0.01</version>
+	<author>Diederick Huijbers</author>
+	<description><![CDATA[Enabling Pango as an addon for openFrameworks to allow 
+for some advanced text rendering.]]>
+	<url></url>
+	<add>
+		<include>
+			
+			<path>..\..\..\addons_diederick\ofxPango\src\</path>
+			<path>..\..\..\addons_diederick\ofxPango\src\includes\</path>
+			<path>..\..\..\addons_diederick\ofxPango\src\includes\cairo</path>
+			<path>..\..\..\addons_diederick\ofxPango\src\includes\glib\</path>
+			
+		</include>
+		
+		<link>
+			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxPango\src\libs\win\static\libpangocairo-1.0-0.dll</lib>
+			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxPango\src\libs\win\static\libcairo-2.dll</lib>
+			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxPango\src\libs\win\static\libpango-1.0-0.dll</lib>
+		</link>
+	</add>
+	
+</install>
