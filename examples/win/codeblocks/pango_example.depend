@@ -1,0 +1,1287 @@
+# depslib dependency file v1.0
+1280834929 source:d:\programming\c++\openframeworks-0.061\apps\diederick\c0001_pango_test\src\main.cpp
+	"ofMain.h"
+	"testApp.h"
+	"ofAppGlutWindow.h"
+
+1280834937 d:\programming\c++\openframeworks-0.061\libs\openframeworks\ofmain.h
+	"ofConstants.h"
+	"ofMath.h"
+	"ofUtils.h"
+	"ofTypes.h"
+	"ofSerial.h"
+	"ofArduino.h"
+	"ofTexture.h"
+	"ofTrueTypeFont.h"
+	"ofGraphics.h"
+	"ofImage.h"
+	"ofBaseApp.h"
+	"ofAppRunner.h"
+	"ofSoundStream.h"
+	"ofSoundPlayer.h"
+	"ofVideoGrabber.h"
+	"ofVideoPlayer.h"
+	"ofEvents.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\utils\ofconstants.h
+	<TargetConditionals.h>
+	<windows.h>
+	"GLee.h"
+	"glu.h"
+	<unistd.h>
+	"GLee.h"
+	<OpenGL/glu.h>
+	<ApplicationServices/ApplicationServices.h>
+	<unistd.h>
+	"GLee.h"
+	<GL/glu.h>
+	<stdio.h>
+	<stdarg.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<vector>
+	<string>
+	<sstream>
+	<iomanip>
+
+1280834937 d:\programming\c++\openframeworks-0.061\libs\glee\include\glee.h
+	<windows.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<stddef.h>
+
+1280834936 d:\programming\c++\openframeworks-0.061\libs\glu\include\glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\utils\ofmath.h
+	"ofConstants.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\utils\ofutils.h
+	"ofConstants.h"
+	<shellapi.h>
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\utils\oftypes.h
+	"ofConstants.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\communication\ofserial.h
+	"ofConstants.h"
+	<termios.h>
+	<sys/ioctl.h>
+	<getopt.h>
+	<dirent.h>
+	<winbase.h>
+	<tchar.h>
+	<iostream>
+	<string.h>
+	<setupapi.h>
+	<regstr.h>
+	<winioctl.h>
+	<initguid.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<errno.h>
+	<ctype.h>
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\communication\ofarduino.h
+	<list>
+	<vector>
+	<string>
+	<iostream>
+	"ofEvents.h"
+	"ofSerial.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\events\ofevents.h
+	"ofConstants.h"
+	"ofEventUtils.h"
+	"ofxEventUtils.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\events\ofeventutils.h
+	"ofConstants.h"
+	"Poco/FIFOEvent.h"
+	"Poco/Delegate.h"
+
+1280834947 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\fifoevent.h
+	"Poco/AbstractEvent.h"
+	"Poco/FIFOStrategy.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/CompareFunctions.h"
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\abstractevent.h
+	"Poco/Foundation.h"
+	"Poco/SingletonHolder.h"
+	"Poco/SharedPtr.h"
+	"Poco/ActiveResult.h"
+	"Poco/ActiveMethod.h"
+	"Poco/Mutex.h"
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\foundation.h
+	"Poco/Config.h"
+	"Poco/Platform.h"
+	"Poco/Platform_WIN32.h"
+	"Poco/Platform_VMS.h"
+	"Poco/Platform_POSIX.h"
+	"Poco/Bugcheck.h"
+	"Poco/Types.h"
+	<string>
+
+1280834947 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\config.h
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\platform.h
+
+1280834944 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\platform_win32.h
+
+1280834948 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\platform_vms.h
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\platform_posix.h
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\bugcheck.h
+	"Poco/Foundation.h"
+	<string>
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\types.h
+	"Poco/Foundation.h"
+
+1280834948 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\singletonholder.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+
+1280834948 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\mutex.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/ScopedLock.h"
+	"Poco/Mutex_WIN32.h"
+	"Poco/Mutex_POSIX.h"
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\exception.h
+	"Poco/Foundation.h"
+	<stdexcept>
+
+1280834948 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\scopedlock.h
+	"Poco/Foundation.h"
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\mutex_win32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\unwindows.h
+	<windows.h>
+
+1280834947 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\mutex_posix.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1280834948 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\sharedptr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/Mutex.h"
+	<algorithm>
+
+1280834948 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\activeresult.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1280834948 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\event.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/Event_WIN32.h"
+	"Poco/Event_POSIX.h"
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\event_win32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\event_posix.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1280834948 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\refcountedobject.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\activemethod.h
+	"Poco/Foundation.h"
+	"Poco/ActiveResult.h"
+	"Poco/ActiveRunnable.h"
+	"Poco/ActiveStarter.h"
+	"Poco/AutoPtr.h"
+
+1280834944 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\activerunnable.h
+	"Poco/Foundation.h"
+	"Poco/ActiveResult.h"
+	"Poco/Runnable.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	"Poco/Exception.h"
+
+1280834947 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\runnable.h
+	"Poco/Foundation.h"
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\autoptr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\activestarter.h
+	"Poco/Foundation.h"
+	"Poco/ThreadPool.h"
+	"Poco/ActiveRunnable.h"
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\threadpool.h
+	"Poco/Foundation.h"
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	<vector>
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\thread.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Thread_WIN32.h"
+	"Poco/Thread_POSIX.h"
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\thread_win32.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1280834947 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\thread_posix.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/SignalHandler.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	<pthread.h>
+	<sys/select.h>
+	<errno.h>
+
+1280834947 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\signalhandler.h
+	"Poco/Foundation.h"
+	<vector>
+	<setjmp.h>
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\fifostrategy.h
+	"Poco/NotificationStrategy.h"
+	<map>
+	<list>
+	<memory>
+
+1280834944 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\notificationstrategy.h
+	"Poco/Foundation.h"
+
+1280834947 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\abstractdelegate.h
+	"Poco/Foundation.h"
+
+1280834946 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\comparefunctions.h
+	"Poco/Foundation.h"
+	<functional>
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\delegate.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/FunctionDelegate.h"
+	"Poco/Expire.h"
+
+1280834947 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\functiondelegate.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+
+1280834948 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\expire.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/Timestamp.h"
+
+1280834945 d:\programming\c++\openframeworks-0.061\libs\poco\include\poco\timestamp.h
+	"Poco/Foundation.h"
+	<ctime>
+
+1280834937 d:\programming\c++\openframeworks-0.061\libs\openframeworks\graphics\oftexture.h
+	"ofConstants.h"
+	"ofGraphics.h"
+
+1280834937 d:\programming\c++\openframeworks-0.061\libs\openframeworks\graphics\ofgraphics.h
+	"ofConstants.h"
+	"ofTypes.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\graphics\oftruetypefont.h
+	"ofConstants.h"
+	"ofGraphics.h"
+	"ofUtils.h"
+	"ofTypes.h"
+
+1280834937 d:\programming\c++\openframeworks-0.061\libs\openframeworks\graphics\ofimage.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofGraphics.h"
+	"ofAppRunner.h"
+	"FreeImage.h"
+	"ofUtils.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\app\ofapprunner.h
+	"ofMain.h"
+	"ofBaseApp.h"
+	"ofAppBaseWindow.h"
+	"ofAppGlutWindow.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\app\ofbaseapp.h
+	"ofTypes.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\app\ofappbasewindow.h
+	"ofTypes.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\app\ofappglutwindow.h
+	"ofConstants.h"
+	"ofAppBaseWindow.h"
+	"glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1280834936 d:\programming\c++\openframeworks-0.061\libs\glut\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1280834936 d:\programming\c++\openframeworks-0.061\libs\freeimage\include\freeimage.h
+	<wchar.h>
+	<inttypes.h>
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\sound\ofsoundstream.h
+	"ofConstants.h"
+	"ofBaseApp.h"
+	"ofEvents.h"
+	"ofMath.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\sound\ofsoundplayer.h
+	"ofConstants.h"
+	"fmod.h"
+	"fmod_errors.h"
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\fmodex\include\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\fmodex\include\fmod_codec.h
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\fmodex\include\fmod_dsp.h
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\fmodex\include\fmod_memoryinfo.h
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\fmodex\include\fmod_errors.h
+	"fmod.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\video\ofvideograbber.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofGraphics.h"
+	"ofTypes.h"
+	"ofQtUtils.h"
+	"videoInput.h"
+	"ofUCUtils.h"
+	"ofGstUtils.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\video\ofqtutils.h
+	"ofConstants.h"
+	"ofGraphics.h"
+	<QuickTime/QuickTime.h>
+	<CoreServices/CoreServices.h>
+	<ApplicationServices/ApplicationServices.h>
+	<QTML.h>
+	<FixMath.h>
+	<QuickTimeComponents.h>
+	<TextUtils.h>
+	<MediaHandlers.h>
+
+1280834941 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\qtml.h
+	<MacTypes.h>
+	<MacMemory.h>
+	<MacWindows.h>
+	<OSUtils.h>
+	<Files.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\mactypes.h
+	<ConditionalMacros.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\conditionalmacros.h
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\macmemory.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\mixedmode.h
+	<MacTypes.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\macwindows.h
+	<MacTypes.h>
+	<Aliases.h>
+	<AppleEvents.h>
+	<Collections.h>
+	<Drag.h>
+	<Events.h>
+	<Menus.h>
+	<MixedMode.h>
+	<QDOffscreen.h>
+	<Quickdraw.h>
+	<TextCommon.h>
+	<Icons.h>
+	<MacErrors.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\aliases.h
+	<MacTypes.h>
+	<AppleTalk.h>
+	<Files.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\appletalk.h
+	<MacTypes.h>
+	<OSUtils.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\osutils.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<MacMemory.h>
+	<Patches.h>
+	<DateTimeUtils.h>
+	<Endian.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\patches.h
+	<MacTypes.h>
+
+1280834941 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\datetimeutils.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\endian.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\files.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<OSUtils.h>
+	<TextCommon.h>
+	<UTCUtils.h>
+	<Finder.h>
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\textcommon.h
+	<MacTypes.h>
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\utcutils.h
+	<MacTypes.h>
+	<MacErrors.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\macerrors.h
+	<ConditionalMacros.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\finder.h
+	<MacTypes.h>
+
+1280834941 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\appleevents.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Notification.h>
+	<Events.h>
+	<AEDataModel.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\notification.h
+	<MacTypes.h>
+	<OSUtils.h>
+
+1280834941 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\events.h
+	<OSUtils.h>
+	<Quickdraw.h>
+	<MacTypes.h>
+	<Endian.h>
+
+1280834941 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\quickdraw.h
+	<Components.h>
+	<MacTypes.h>
+	<MixedMode.h>
+	<QuickdrawText.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\components.h
+	<MacErrors.h>
+	<MacTypes.h>
+	<MixedMode.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\quickdrawtext.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\aedatamodel.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1280834941 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\collections.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\drag.h
+	<MacTypes.h>
+	<Events.h>
+	<Files.h>
+	<AppleEvents.h>
+	<Quickdraw.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\menus.h
+	<MacTypes.h>
+	<Events.h>
+	<Quickdraw.h>
+	<Fonts.h>
+	<TextCommon.h>
+	<Processes.h>
+	<AppleEvents.h>
+	<Collections.h>
+	<MacErrors.h>
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\fonts.h
+	<MacTypes.h>
+	<Files.h>
+	<Quickdraw.h>
+	<TextCommon.h>
+	<MacErrors.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\processes.h
+	<MacTypes.h>
+	<Events.h>
+	<Files.h>
+
+1280834941 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\qdoffscreen.h
+	<MacErrors.h>
+	<Quickdraw.h>
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\icons.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<Files.h>
+	<CodeFragments.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\codefragments.h
+	<MacTypes.h>
+	<Files.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\fixmath.h
+	<MacTypes.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\quicktimecomponents.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Components.h>
+	<ImageCompression.h>
+	<Movies.h>
+	<Quickdraw.h>
+	<Video.h>
+	<Sound.h>
+	<QuickTimeMusic.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\imagecompression.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<QDOffscreen.h>
+	<Components.h>
+	<StandardFile.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\standardfile.h
+	<MacTypes.h>
+	<Dialogs.h>
+	<Files.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\dialogs.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Events.h>
+	<MacWindows.h>
+	<TextEdit.h>
+	<Controls.h>
+	<MacErrors.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\textedit.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<MixedMode.h>
+
+1280834943 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\controls.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<Menus.h>
+	<TextEdit.h>
+	<Drag.h>
+	<Icons.h>
+	<Collections.h>
+	<MacErrors.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\movies.h
+	<Quickdraw.h>
+	<Aliases.h>
+	<Events.h>
+	<Menus.h>
+	<Components.h>
+	<ImageCompression.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\video.h
+	<Quickdraw.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\sound.h
+	<MacTypes.h>
+	<Dialogs.h>
+	<Components.h>
+	<MixedMode.h>
+	<Movies.h>
+
+1280834941 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\quicktimemusic.h
+	<Components.h>
+	<ImageCompression.h>
+	<Movies.h>
+	<Quickdraw.h>
+	<Video.h>
+	<MacMemory.h>
+	<Sound.h>
+	<Endian.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\textutils.h
+	<MacTypes.h>
+	<NumberFormatting.h>
+	<StringCompare.h>
+	<DateTimeUtils.h>
+
+1280834942 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\numberformatting.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+	<IntlResources.h>
+
+1280834940 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\intlresources.h
+	<MacTypes.h>
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\stringcompare.h
+	<MacTypes.h>
+	<TextCommon.h>
+	<Script.h>
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\script.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<IntlResources.h>
+	<Events.h>
+
+1280834939 d:\programming\c++\openframeworks-0.061\libs\quicktime\include\mediahandlers.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+	<Components.h>
+	<Movies.h>
+	<Sound.h>
+
+1280834936 d:\programming\c++\openframeworks-0.061\libs\videoinput\include\videoinput.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<wchar.h>
+	<windows.h>
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\video\ofucutils.h
+	"ofConstants.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<unicap.h>
+	<unistd.h>
+	<string.h>
+	<pthread.h>
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\video\ofgstutils.h
+	<gst/gst.h>
+	<pthread.h>
+	"ofConstants.h"
+
+1280834938 d:\programming\c++\openframeworks-0.061\libs\openframeworks\video\ofvideoplayer.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofGstUtils.h"
+	"ofQtUtils.h"
+
+1280838606 d:\programming\c++\openframeworks-0.061\apps\diederick\c0001_pango_test\src\testapp.h
+	"ofMain.h"
+	"ofxPango.h"
+
+1280834929 source:d:\programming\c++\openframeworks-0.061\apps\diederick\c0001_pango_test\src\testapp.cpp
+	"testApp.h"
+
+1280835054 source:d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpcpangofontdescription.cpp
+	"ofxPCPangoFontDescription.h"
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpcpangofontdescription.h
+	<pango/pangocairo.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pangocairo.h
+	<pango/pango.h>
+	<cairo.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango.h
+	<pango/pango-attributes.h>
+	<pango/pango-bidi-type.h>
+	<pango/pango-break.h>
+	<pango/pango-context.h>
+	<pango/pango-coverage.h>
+	<pango/pango-engine.h>
+	<pango/pango-enum-types.h>
+	<pango/pango-features.h>
+	<pango/pango-font.h>
+	<pango/pango-fontmap.h>
+	<pango/pango-fontset.h>
+	<pango/pango-glyph.h>
+	<pango/pango-glyph-item.h>
+	<pango/pango-gravity.h>
+	<pango/pango-item.h>
+	<pango/pango-layout.h>
+	<pango/pango-matrix.h>
+	<pango/pango-renderer.h>
+	<pango/pango-script.h>
+	<pango/pango-tabs.h>
+	<pango/pango-types.h>
+	<pango/pango-utils.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-attributes.h
+	<pango/pango-font.h>
+	<glib-object.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-font.h
+	<pango/pango-coverage.h>
+	<pango/pango-types.h>
+	<glib-object.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-coverage.h
+	<glib.h>
+
+1280835059 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib.h
+	<glib/galloca.h>
+	<glib/garray.h>
+	<glib/gasyncqueue.h>
+	<glib/gatomic.h>
+	<glib/gbacktrace.h>
+	<glib/gbase64.h>
+	<glib/gbitlock.h>
+	<glib/gbookmarkfile.h>
+	<glib/gcache.h>
+	<glib/gchecksum.h>
+	<glib/gcompletion.h>
+	<glib/gconvert.h>
+	<glib/gdataset.h>
+	<glib/gdate.h>
+	<glib/gdir.h>
+	<glib/gerror.h>
+	<glib/gfileutils.h>
+	<glib/ghash.h>
+	<glib/ghook.h>
+	<glib/ghostutils.h>
+	<glib/giochannel.h>
+	<glib/gkeyfile.h>
+	<glib/glist.h>
+	<glib/gmacros.h>
+	<glib/gmain.h>
+	<glib/gmappedfile.h>
+	<glib/gmarkup.h>
+	<glib/gmem.h>
+	<glib/gmessages.h>
+	<glib/gnode.h>
+	<glib/goption.h>
+	<glib/gpattern.h>
+	<glib/gpoll.h>
+	<glib/gprimes.h>
+	<glib/gqsort.h>
+	<glib/gquark.h>
+	<glib/gqueue.h>
+	<glib/grand.h>
+	<glib/grel.h>
+	<glib/gregex.h>
+	<glib/gscanner.h>
+	<glib/gsequence.h>
+	<glib/gshell.h>
+	<glib/gslice.h>
+	<glib/gslist.h>
+	<glib/gspawn.h>
+	<glib/gstrfuncs.h>
+	<glib/gstring.h>
+	<glib/gtestutils.h>
+	<glib/gthread.h>
+	<glib/gthreadpool.h>
+	<glib/gtimer.h>
+	<glib/gtree.h>
+	<glib/gtypes.h>
+	<glib/gunicode.h>
+	<glib/gurifuncs.h>
+	<glib/gutils.h>
+	<glib/gvarianttype.h>
+	<glib/gvariant.h>
+	<glib/gwin32.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\galloca.h
+	<glib/gtypes.h>
+	<alloca.h>
+	<malloc.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gtypes.h
+	<glibconfig.h>
+	<glib/gmacros.h>
+
+1280835059 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glibconfig.h
+	<glib/gmacros.h>
+	<limits.h>
+	<float.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gmacros.h
+	<stddef.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\garray.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gasyncqueue.h
+	<glib/gthread.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gthread.h
+	<glib/gerror.h>
+	<glib/gutils.h>
+	<glib/gatomic.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gerror.h
+	<stdarg.h>
+	<glib/gquark.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gquark.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gutils.h
+	<glib/gtypes.h>
+	<stdarg.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gatomic.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gbacktrace.h
+	<glib/gtypes.h>
+	<signal.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gbase64.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gbitlock.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gbookmarkfile.h
+	<glib/gerror.h>
+	<time.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gcache.h
+	<glib/glist.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\glist.h
+	<glib/gmem.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gmem.h
+	<glib/gslice.h>
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gslice.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gchecksum.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gcompletion.h
+	<glib/glist.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gconvert.h
+	<glib/gerror.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gdataset.h
+	<glib/gquark.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gdate.h
+	<time.h>
+	<glib/gtypes.h>
+	<glib/gquark.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gdir.h
+	<glib/gerror.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gfileutils.h
+	<glib/gerror.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\ghash.h
+	<glib/gtypes.h>
+	<glib/glist.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\ghook.h
+	<glib/gmem.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\ghostutils.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\giochannel.h
+	<glib/gconvert.h>
+	<glib/gmain.h>
+	<glib/gstring.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gmain.h
+	<glib/gpoll.h>
+	<glib/gslist.h>
+	<glib/gthread.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gpoll.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gslist.h
+	<glib/gmem.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gstring.h
+	<glib/gtypes.h>
+	<glib/gunicode.h>
+	<glib/gutils.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gunicode.h
+	<glib/gerror.h>
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gkeyfile.h
+	<glib/gerror.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gmappedfile.h
+	<glib/gerror.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gmarkup.h
+	<stdarg.h>
+	<glib/gerror.h>
+	<glib/gslist.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gmessages.h
+	<stdarg.h>
+	<glib/gtypes.h>
+	<glib/gmacros.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gnode.h
+	<glib/gmem.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\goption.h
+	<glib/gerror.h>
+	<glib/gquark.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gpattern.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gprimes.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gqsort.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gqueue.h
+	<glib/glist.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\grand.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\grel.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gregex.h
+	<glib/gerror.h>
+	<glib/gstring.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gscanner.h
+	<glib/gdataset.h>
+	<glib/ghash.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gsequence.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gshell.h
+	<glib/gerror.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gspawn.h
+	<glib/gerror.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gstrfuncs.h
+	<stdarg.h>
+	<glib/gmacros.h>
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gtestutils.h
+	<glib/gmessages.h>
+	<glib/gstring.h>
+	<glib/gerror.h>
+	<glib/gslist.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gthreadpool.h
+	<glib/gthread.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gtimer.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gtree.h
+	<glib/gnode.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gurifuncs.h
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gvarianttype.h
+	<glib/gmessages.h>
+	<glib/gtypes.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gvariant.h
+	<glib/gvarianttype.h>
+	<glib/gstring.h>
+
+1280835057 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib\gwin32.h
+	<glib/gtypes.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-types.h
+	<glib.h>
+	<glib-object.h>
+	<pango/pango-gravity.h>
+	<pango/pango-language.h>
+	<pango/pango-matrix.h>
+	<pango/pango-script.h>
+	<pango/pango-bidi-type.h>
+
+1280835059 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\glib-object.h
+	<gobject/gbinding.h>
+	<gobject/gboxed.h>
+	<gobject/genums.h>
+	<gobject/gobject.h>
+	<gobject/gparam.h>
+	<gobject/gparamspecs.h>
+	<gobject/gsignal.h>
+	<gobject/gsourceclosure.h>
+	<gobject/gtype.h>
+	<gobject/gtypemodule.h>
+	<gobject/gtypeplugin.h>
+	<gobject/gvalue.h>
+	<gobject/gvaluearray.h>
+	<gobject/gvaluetypes.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gbinding.h
+	<glib.h>
+	<gobject/gobject.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gobject.h
+	<gobject/gtype.h>
+	<gobject/gvalue.h>
+	<gobject/gparam.h>
+	<gobject/gclosure.h>
+	<gobject/gsignal.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gtype.h
+	<glib.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gvalue.h
+	<gobject/gtype.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gparam.h
+	<gobject/gvalue.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gclosure.h
+	<gobject/gtype.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gsignal.h
+	<gobject/gclosure.h>
+	<gobject/gvalue.h>
+	<gobject/gparam.h>
+	<gobject/gmarshal.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gmarshal.h
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gboxed.h
+	<gobject/gtype.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\genums.h
+	<gobject/gtype.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gparamspecs.h
+	<gobject/gvalue.h>
+	<gobject/genums.h>
+	<gobject/gboxed.h>
+	<gobject/gobject.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gsourceclosure.h
+	<gobject/gclosure.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gtypemodule.h
+	<gobject/gobject.h>
+	<gobject/genums.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gtypeplugin.h
+	<gobject/gtype.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gvaluearray.h
+	<gobject/gvalue.h>
+
+1280835058 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gobject\gvaluetypes.h
+	<gobject/gvalue.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-gravity.h
+	<glib.h>
+	<pango/pango-matrix.h>
+	<pango/pango-script.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-matrix.h
+	<glib.h>
+	<glib-object.h>
+	<pango/pango-types.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-script.h
+	<glib.h>
+	<pango/pango-language.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-language.h
+	<glib.h>
+	<glib-object.h>
+	<pango/pango-script.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-bidi-type.h
+	<glib.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-break.h
+	<glib.h>
+	<pango/pango-item.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-item.h
+	<pango/pango-types.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-context.h
+	<pango/pango-font.h>
+	<pango/pango-fontmap.h>
+	<pango/pango-attributes.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-fontmap.h
+	<pango/pango-font.h>
+	<pango/pango-fontset.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-fontset.h
+	<pango/pango-coverage.h>
+	<pango/pango-types.h>
+	<glib-object.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-engine.h
+	<pango/pango-types.h>
+	<pango/pango-item.h>
+	<pango/pango-font.h>
+	<pango/pango-glyph.h>
+	<pango/pango-script.h>
+	<gmodule.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-glyph.h
+	<pango/pango-types.h>
+	<pango/pango-item.h>
+
+1280835059 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\glib\include\\gmodule.h
+	<glib.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-enum-types.h
+	<glib-object.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-features.h
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-glyph-item.h
+	<pango/pango-attributes.h>
+	<pango/pango-break.h>
+	<pango/pango-item.h>
+	<pango/pango-glyph.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-layout.h
+	<pango/pango-attributes.h>
+	<pango/pango-context.h>
+	<pango/pango-glyph-item.h>
+	<pango/pango-tabs.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-tabs.h
+	<pango/pango-types.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-renderer.h
+	<pango/pango-layout.h>
+
+1280835055 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\pango\include\\pango\pango-utils.h
+	<stdio.h>
+	<glib.h>
+	<pango/pango-font.h>
+
+1280835060 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\cairo\include\cairo\\cairo.h
+	"cairo-version.h"
+	"cairo-features.h"
+	"cairo-deprecated.h"
+
+1280835060 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\cairo\include\cairo\\cairo-version.h
+
+1280835060 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\cairo\include\cairo\\cairo-features.h
+
+1280835060 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\libs\cairo\include\cairo\\cairo-deprecated.h
+
+1280835054 source:d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpcpangolayout.cpp
+	"ofxPCPangoLayout.h"
+	"ofxPCContext.h"
+	"ofxPCPangoFontDescription.h"
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpcpangolayout.h
+	<pango/pangocairo.h>
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpccontext.h
+	<pango/pangocairo.h>
+
+1280835054 source:d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpcsurface.cpp
+	"ofxPCSurface.h"
+	"ofMain.h"
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpcsurface.h
+	<pango/pangocairo.h>
+
+1280835054 source:d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpango.cpp
+	"ofxPango.h"
+	"ofxPCContext.h"
+	"ofxPCSurface.h"
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpango.h
+	<pango/pangocairo.h>
+	"ofxPCContext.h"
+	"ofxPCSurface.h"
+	"ofxPCPangoLayout.h"
+	"ofxPCPangoFontDescription.h"
+
+1280835054 source:d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\ofxpccontext.cpp
+	"ofxPCContext.h"
+	"ofxPCSurface.h"
+	"ofxPCPangoLayout.h"
+	"ofMain.h"
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\\ofxpango.h
+	<pango/pangocairo.h>
+	"ofxPCContext.h"
+	"ofxPCSurface.h"
+	"ofxPCPangoLayout.h"
+	"ofxPCPangoFontDescription.h"
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\\ofxpccontext.h
+	<pango/pangocairo.h>
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\\ofxpcsurface.h
+	<pango/pangocairo.h>
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\\ofxpcpangolayout.h
+	<pango/pangocairo.h>
+
+1280835054 d:\programming\c++\openframeworks-0.061\addons_diederick\ofxpango\src\\ofxpcpangofontdescription.h
+	<pango/pangocairo.h>
+
