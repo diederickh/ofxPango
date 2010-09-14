@@ -102,3 +102,9 @@ void ofxPCPangoLayout::setAlignCenter() {
 void ofxPCPangoLayout::setAlignRight() {
 	pango_layout_set_alignment(pa_layout, PANGO_ALIGN_RIGHT);
 }
+
+PangoRectangle ofxPCPangoLayout::getPixelExtents() {
+	PangoRectangle rect;
+	pango_layout_get_pixel_extents(pa_layout,&rect, NULL);
+	return rect;
+}
