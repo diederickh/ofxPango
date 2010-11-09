@@ -3,14 +3,11 @@
 
 ofxPCSurface::ofxPCSurface(float fWidth, float fHeight, cairo_format_t nType) {
 	cr_surface = cairo_image_surface_create(nType, fWidth, fHeight);
-	ref();
-
 }
 
 ofxPCSurface::~ofxPCSurface() {
 	cairo_surface_destroy(cr_surface);
 	cairo_surface_finish(cr_surface);
-	cout << "~~~~ ofxPCSurface, ref count: " << cairo_surface_get_reference_count(cr_surface) << std::endl;
 }
 
 void ofxPCSurface::ref(std::string s) {
@@ -24,19 +21,15 @@ void ofxPCSurface::ref(std::string s) {
 }
 
 int ofxPCSurface::getWidth() {
-//	ref();
 	return cairo_image_surface_get_width(cr_surface);
 }
 
 int ofxPCSurface::getHeight() {
-//	ref();
 	return cairo_image_surface_get_height(cr_surface);
 }
 
 
 unsigned char* ofxPCSurface::getPixels() {
-	//return cairo_image_surface_get_data(cr_surface);
-		
 	uint32_t* data = (uint32_t*)cairo_image_surface_get_data(cr_surface);
 	int pixels = getWidth()*getHeight(); // we assume RGBA for now!
 	unsigned char* new_data = new unsigned char[pixels * 4];
@@ -56,7 +49,6 @@ unsigned char* ofxPCSurface::getPixels() {
 			new_data[dest+3] = a;
 		}
 	}
-	ref();
 	return new_data;
 }
 

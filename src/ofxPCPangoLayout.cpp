@@ -7,19 +7,12 @@
 ofxPCPangoLayout::ofxPCPangoLayout(ofxPCContext* pContext) 
 :context(pContext)
 {
-	std::cout << "+ ofxPCPangoLayout" << std::endl;
 	pa_layout = pango_cairo_create_layout(pContext->cr_context);
 }
 
 ofxPCPangoLayout::~ofxPCPangoLayout() {
-	std::cout << "~~~~ ofxPCPangoLayout" << std::endl;
 	delete context;
 	g_object_unref(pa_layout);
-
-	
-//	delete(pa_layout);
-//	delete pa_layout;
-	std::cout << "~~~~ ofxPCPangoLayout pa_layout: " << pa_layout << std::endl;
 }
 
 void ofxPCPangoLayout::setJustify(bool bJustify) {

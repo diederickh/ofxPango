@@ -22,10 +22,6 @@ ofxPCContext::~ofxPCContext() {
 	destroy();
 	surface->ref("dtor");
 	delete surface;
-	cout << "~~~~ ofxPCContext" << std::endl;
-	cout << "~~~~ ofxPCContext, ref count: " << cairo_get_reference_count(cr_context) << std::endl;
-	cout << "~~~~ ofxPCContext: cr_context" << cr_context <<  std::endl;
-	
 }
 
 
