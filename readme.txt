@@ -21,8 +21,9 @@ Installation Windows (Code::Blocks)
 		..\..\..\addons_diederick\ofxPango\libs\pango\lib\win\libpangocairo-1.0-0.dll
 		..\..\..\addons_diederick\ofxPango\libs\pango\lib\win\libpango-1.0-0.dll
 		..\..\..\addons_diederick\ofxPango\libs\cairo\lib\win\libcairo-2.dll
-
-- Copy the files from: ofxPango\win\ to your bin directory. 
+		..\..\..\addons_diederick\ofxPango\src\libs\win\libgobject-2.0-0.dll
+		
+- Copy the dll files from: ofxPango\src\libs\win\ and ofxPango\src\libs\static\ to your bin directory. 
 
 
 Installation Mac (XCode)

@@ -29,6 +29,7 @@ public:
 	void setAlignLeft();
 	void setAlignRight();
 	void setAlignCenter();
+	PangoRectangle getPixelExtents();
 	ofxPCContext* context;
 	PangoLayout* pa_layout;
 private:

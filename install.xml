@@ -19,6 +19,8 @@ for some advanced text rendering.]]>
 			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxPango\src\libs\win\static\libpangocairo-1.0-0.dll</lib>
 			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxPango\src\libs\win\static\libcairo-2.dll</lib>
 			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxPango\src\libs\win\static\libpango-1.0-0.dll</lib>
+			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxPango\src\libs\win\libgobject-2.0-0.dll</lib>
+			
 		</link>
 	</add>
 	
