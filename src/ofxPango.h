@@ -12,6 +12,17 @@
  *
  * @author	Diederick Huijbers <diederick@apollomedia.nl>
  * @version	0.0.1 2010.07.03
+ *
+ * <example>
+ * 	
+ *  layout = simple->getPango()->createLayout(width,height);
+ *	layout->fill(0.0f, 0.0f, 0.0f, 0.0f);
+ *	layout->setTextColor(1.0f, 1.0f,10.0f, 1.0f);
+ *	layout->setText(oTweet.text);
+ *	layout->show();
+ *	ofImage img = layout->getImage();
+ *
+ * </example>
  */
 
 #include <pango/pangocairo.h>

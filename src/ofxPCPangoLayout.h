@@ -23,6 +23,7 @@ public:
 	void setFontDescription(ofxPCPangoFontDescription oFont);
 	int getWidth();
 	int getHeight();
+	float getTextHeight();
 	void setFont(std::string sFontDesc);
 	void fill(float fR, float fG, float fB, float fA = 1.0f);
 	void setTextColor(float fR, float fG, float fB, float fA = 1.0f); 

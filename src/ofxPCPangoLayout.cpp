@@ -44,6 +44,11 @@ void ofxPCPangoLayout::show() {
 	pango_cairo_show_layout(context->cr_context,pa_layout);
 }
 
+float ofxPCPangoLayout::getTextHeight() {
+	PangoRectangle rect = getPixelExtents();
+	return rect.height;
+}
+
 void ofxPCPangoLayout::setFontDescription(ofxPCPangoFontDescription oFont) {
 	pango_layout_set_font_description(pa_layout, oFont.pa_description);
 }

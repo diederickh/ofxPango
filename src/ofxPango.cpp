@@ -11,6 +11,12 @@ ofxPCContext* ofxPango::createContextWithSurface(float fWidth, float fHeight) {
 	return context;
 }
 
+/**
+ * A layout is used to align text onto a surface. For example if you want to 
+ * right align text, you can use a layout together with a surface. This method
+ * sets up exactly what you need for this.
+ *
+ */
 ofxPCPangoLayout* ofxPango::createLayout(float fWidth, float fHeight) {
 	ofxPCContext* context = createContextWithSurface(fWidth, fHeight);
 	ofxPCPangoLayout* layout = context->createPangoLayout();
