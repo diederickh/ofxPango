@@ -11,6 +11,7 @@ ofxPCPangoLayout::ofxPCPangoLayout(ofxPCContext* pContext)
 }
 
 ofxPCPangoLayout::~ofxPCPangoLayout() {
+	//std::cout << "~~~~ ofxPCPangoLayout" << std::endl;
 	delete context;
 	g_object_unref(pa_layout);
 }

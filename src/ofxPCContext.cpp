@@ -6,10 +6,7 @@ ofxPCContext::ofxPCContext(ofxPCSurface* pSurface)
 :surface(pSurface)
 ,cr_context(NULL) 
 {
-	std::cout << "+ ofxPCContext" << std::endl;
-	pSurface->ref("before");
 	cr_context = cairo_create(pSurface->cr_surface);
-	pSurface->ref("after");
 	if(cairo_status(cr_context) != CAIRO_STATUS_SUCCESS) {	
 		cout << "Error creating the context" << std::endl;
 	}
@@ -20,7 +17,6 @@ ofxPCContext::ofxPCContext(ofxPCSurface* pSurface)
 
 ofxPCContext::~ofxPCContext() {
 	destroy();
-	surface->ref("dtor");
 	delete surface;
 }
 
