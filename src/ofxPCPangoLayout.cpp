@@ -17,7 +17,7 @@ ofxPCPangoLayout::~ofxPCPangoLayout() {
 }
 
 void ofxPCPangoLayout::setJustify(bool bJustify) {
-	pango_layout_set_justify(pa_layout, true);
+	pango_layout_set_justify(pa_layout, bJustify);
 }
 
 void ofxPCPangoLayout::setWidth(int nWidth) {
