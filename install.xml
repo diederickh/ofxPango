@@ -15,6 +15,7 @@
     	<has_example>y</has_example>
 	<description><![CDATA[Enabling Pango as an addon for openFrameworks to allow 
 for some advanced text rendering.]]>
+	</description>
 	<url></url>
 	<add>
 		<include>
