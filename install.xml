@@ -2,6 +2,17 @@
 	<name>ofxPango</name>
 	<version>0.01</version>
 	<author>Diederick Huijbers</author>
+	<author_website>http://www.roxlu.com</author_website>
+	<code_url>https://github.com/roxlu/ofxPango</code_url>
+	<site_url>http://www.roxlu.com</site_url>
+	<download_url>https://github.com/roxlu/ofxPango/zipball/master</download_url>
+	<forum_url></forum_url>
+	<supported_os>
+		<win>y</win>
+    		<mac>y</mac>
+    		<linux>n</linux>
+    	</supported_os>
+    	<has_example>y</has_example>
 	<description><![CDATA[Enabling Pango as an addon for openFrameworks to allow 
 for some advanced text rendering.]]>
 	<url></url>
@@ -25,3 +36,4 @@ for some advanced text rendering.]]>
 	</add>
 	
 </install>
+
