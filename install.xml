@@ -13,7 +13,7 @@
     		<linux>n</linux>
     	</supported_os>
     	<has_example>y</has_example>
-	<description><![CDATA[Enabling Pango as an addon for openFrameworks to allow 
+	<description><![CDATA[Enabling <a href="http://www.pango.org/">Pango</a> as an addon for openFrameworks to allow 
 for some advanced text rendering.]]>
 	</description>
 	<url></url>
