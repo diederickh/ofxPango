@@ -20,6 +20,7 @@ public:
 	void color4f(float fR, float fG, float fB, float fA);
 	void color3f(float fR, float fG, float fB);
 	void paint();
+	void clear();
 	void destroy();
 	void translate(double nX, double nY);
 	

@@ -38,6 +38,17 @@ void ofxPCContext::paint() {
 	cairo_paint(cr_context);
 }
 
+/**
+ * @see http://cairographics.org/FAQ/#clear_a_surface
+ */
+void ofxPCContext::clear() {
+	cairo_save (cr_context);
+	cairo_set_source_rgba(cr_context, 0, 0, 0, 0);
+	cairo_set_operator(cr_context, CAIRO_OPERATOR_SOURCE);
+	cairo_paint(cr_context);
+	cairo_restore(cr_context);
+}
+
 void ofxPCContext::destroy() {
 	cairo_destroy(cr_context);
 }
