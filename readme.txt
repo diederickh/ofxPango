@@ -35,6 +35,11 @@ Installation Mac (XCode)
 	../../../addons_diederick/ofxPango/libs/cairo/include/cairo/
 	../../../addons_diederick/ofxPango/src/
 
+Installation Linux
+==================
+- Be sure all libs are installed through your package manager
+- Add ofxPango to your addons.make
+
 	
 # Errors / faq.
 ================
